@@ -1,1 +1,0 @@
-1.convert images to JPEG 2000, JPEG XR or WebP

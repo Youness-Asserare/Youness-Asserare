@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+*{
+    box-sizing: border-box;
+}
+html, body{
+margin: 0;
+height: 100%;
+font-family: "Orator Std",sans-serif;
+}
+.section{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1/4;
+    
+}
+.S1{
+    background: url(../pictures/opti-p.jpg) no-repeat;
+    background-position: right;
+    background-size: cover;
+    padding: 1em;
+    
+    
+}
+.fas{
+    font-size: 2.5em;
+    color: #2a736a;
+    border: 1px solid #2a736a;
+    background: white;
+    padding: 0.3em;
+}
+
+.S2{
+    display: grid;
+    grid-template-rows: 0.5fr 6fr 0.5fr;
+    
+
+}
+.ls1 li{
+    padding: 0 1.5em;
+   
+
+    
+
+    font-family: 'Raleway', sans-serif;
+   font-weight: bolder;
+ 
+
+
+}
+
+.lista{
+ 
+    display: grid;
+    justify-items: center;
+    align-content: center;
+   
+}
+.paras{
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  padding: 0 1.5em;
+}
+.paras p{
+    font-size: 2em;
+    color: white;
+    background: black;
+    margin: 0;
+    padding: 0.2em;
+    border-bottom: 10px solid white;
+}
+.Socials{
+   
+    display: grid;
+    justify-items: end;
+   
+}
+
+
+
+
+ul{
+    list-style: none;
+    
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+
+.Socials ul{
+    padding-right: 0.5em;
+}
+
+
+.fab{
+   
+    color: white;
+    background: black;  
+    padding: 0.3em;
+    border-radius: 20px;
+    font-size: 1.2em;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+   background: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    border-bottom: 10px solid #2a736a;
+    visibility: visible;
+    display: initial;
+  }
+ 
+  .overlay .closebtn {
+    position: absolute;
+    top:0;
+    right: 1em;
+    font-size: 3em;
+    color: white;
+  }
+
+.both{
+  
+    height: 100%;
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width:900px){
+    .section{
+        grid-template-columns: 1fr;
+        grid-template-rows: 60% 70%;
+
+    }
+  
+  .fas{
+      font-size: 2em;
+  }
+
+
+.paras{
+    padding: 0 5em;
+}
+.S1{
+    background: url(../pictures/optimized-f.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+}
+@media only screen and (max-width:750px){
+   
+.ls1{
+    padding: 0;
+}
+   
+    .section{
+        grid-template-columns: 1fr;
+
+    }
+    .S1{
+        background: url(../pictures/opti-p.jpg) no-repeat;
+        background-position: right;
+        background-size: cover;
+    }
+.paras p{
+    font-size: 1.5em;
+}
+.paras{
+    padding: 1em 2.5em;
+}
+
+    .fas{
+        font-size: 1.5em;
+    }
+}
