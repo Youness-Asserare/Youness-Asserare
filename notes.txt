@@ -1,0 +1,4 @@
+1.All images must be < 1MB
+2.USE Jpeg as a format
+3.use waterfall tests
+4.optimize your pictures
