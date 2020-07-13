@@ -1,5 +1,3 @@
 1.Create 4 articles
-2.Create 4 challenges
-3.Create the 4th challenges banners
 4.Create the Guides
 5.Create the Portfolios
