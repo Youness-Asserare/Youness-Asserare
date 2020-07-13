@@ -1,4 +1,5 @@
-1.All images must be < 1MB
-2.USE Jpeg as a format
-3.use waterfall tests
-4.optimize your pictures
+1.Create 4 articles
+2.Create 4 challenges
+3.Create the 4th challenges banners
+4.Create the Guides
+5.Create the Portfolios

@@ -15,7 +15,7 @@ font-family: "Orator Std",sans-serif;
     
 }
 .S1{
-    background: url(../pictures/Youness-Asserare.jpg) no-repeat;
+    background: url(../pictures/Youness-Asserare.jpg) no-repeat ;
     background-position: right;
     background-size: cover;
     padding: 1em;
@@ -135,7 +135,12 @@ a{
     align-content: center;
     text-align: center;
 }
-
+.both1 ul{
+    padding-left: 0;
+} 
+.both2 ul {
+    padding-left: 0;
+}
 
 
 @media only screen and (max-width:900px){
@@ -158,12 +163,16 @@ a{
     background-position: center;
     background-size: cover;
 }
-
+.ls1 li{
+    padding: 0 1em;
+}
 
 
 }
 @media only screen and (max-width:750px){
-   
+   .ls1 li{
+       padding: 0 .5em;
+   }
 .ls1{
     padding: 0;
 }
