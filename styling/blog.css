@@ -116,11 +116,11 @@ ul{
 .text{
     width: 90%;
 }
-.time{
+/*.time{
     display: grid;
     grid-template-columns: 10% 90%;
     align-items: center;
-}
+}*/
 .text a{
     text-decoration: none;
     color: white;
