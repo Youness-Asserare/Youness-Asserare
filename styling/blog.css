@@ -7,6 +7,15 @@
 html,body{
     margin: 0;
 }
+::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: yellowgreen;
+  }
+  
+  ::selection {
+    color: black;
+    background: yellowgreen;
+  }
 
 .head{
     padding: .5em 1em;
@@ -60,19 +69,19 @@ ul{
 
 .pic1{
     border-radius: 1%;
-    background: url(../pictures/writing.jpg) no-repeat center ;
+    background: url(../pictures/cold.jpg) no-repeat center ;
     background-size: cover;
     filter: grayscale(100%);
 }
 .pic2{
     border-radius: 1%;
-    background: url(../pictures/pic2.jpg) no-repeat center ;
+    background: url(../pictures/run.jpg) no-repeat center ;
     background-size: cover;
     filter: grayscale(100%);
 }
 .pic3{
     border-radius: 1%;
-    background: url(../pictures/pic4.jpg) no-repeat center ;
+    background: url(../pictures/programming.jpg) no-repeat center ;
     background-size: cover;
     filter: grayscale(100%);
 }
@@ -122,6 +131,7 @@ ul{
 .text h1{
     font-family: Inter UI,sans-serif;
     margin-bottom: 0em;
+    text-transform: uppercase;
 }
 
 .text p{
@@ -146,25 +156,51 @@ ul{
     
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    gap: 2em;
+}
+a{
+    text-decoration: none;
 }
 
+.small-articles p{
+    color: white;
+    font-size: 2em;
+  
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+
+}
 .s-art-1{
-    background: url(../pictures/Banner1.png) no-repeat center;
+    align-self: center;
+    background: darkblue;
+}
+.s-art-2{
+    align-self: center;
+
+    background: black;
+}
+.s-art-3{
+    align-self: center;
+
+    background: greenyellow;
+}
+/*.s-art-1 {
+    background: url(../pictures/COLD\ SHOWER.png) no-repeat center;
+
     background-size: contain;
 }
 .s-art-2{
-    background: url(../pictures/Banner2.png) no-repeat center;
+    background: url(../pictures/RUNNING.png) no-repeat center;
     background-size: contain;
 }
 .s-art-3{
-    background: url(../pictures/Banner3.png) no-repeat center;
-    background-size: contain;
-}
-.s-art-4{
-    background: url(../pictures/Banner4.png) no-repeat center;
+    background: url(../pictures/PROGRAMMING.png) no-repeat center;
     background-size: contain;
 }
 
+*/
 .pages ul{
    text-align: center;
 list-style: none;
