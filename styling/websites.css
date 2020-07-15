@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+}
+::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: yellowgreen;
+  }
+  
+  ::selection {
+    color: black;
+    background: yellowgreen;
+  }
+
+.html, body {
+    margin: 0;
+}
+
+.head{
+    padding: .5em 1em;
+    background: #2a736a;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    
+}
+.head a{
+    font-size: 1em;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    text-align: center;
+}
+
+
+.logo{
+    padding-left: 1em;
+    justify-self: start;
+    align-self: center;
+    display: inline-block;
+   visibility: visible;
+}
+.logo p{
+    margin: 0;
+    display: inline-block;
+    align-self: center;
+    font-family: 'Dancing Script', cursive;
+  color: white;
+  font-size: 1.5em;
+}
+
+.mob-butt{
+    display: none;
+    visibility: hidden;
+}
+.list{
+    justify-self: end;
+    display: initial;
+    visibility: visible;
+}
+.ls1 li{  
+    
+    display: inline-block;
+    padding: 0 1em;
+    font-family:sans-serif ;
+}
+
+.overlay{
+    visibility: hidden;
+    display: none;
+}
+.pre-view{
+    padding: 0 1em;
+}
+.preview{
+    padding: 1em;
+    height: 70vh;
+
+    background: url(../pictures/websites.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.preview p{
+    color: white;
+    background: black;
+    position: absolute;
+    top: 75vh;
+    
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.preview a{
+    color: white;
+    background: black;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.the-artcls{
+    display: grid;
+    grid-template-columns: .5fr 1fr .4fr;
+}
+.Ttl h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 4.125rem;
+    letter-spacing: -.3px;
+    text-rendering: optimizeLegibility;
+    color:  #424242;
+}
+.explaining div {
+    text-align: center;
+    border: 1px solid gray;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.links{
+    padding:  2em;
+}
+.links ul {
+    padding: 0.5em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(162, 169, 177);
+   
+}
+.links li{
+    padding: 0.2em 0;
+}
+.links li,dd {
+    font-size: .9em;
+}
+.para p{
+    color: #424242;
+    font-size: 1.5em;
+}
+
+.para h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.links li ,dd{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.seen{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+.d1c{
+    font-size: 2em;
+}
+.d2c{
+    font-size: 1.5em;
+}
+.d3c{
+    font-size: 2em;
+}
+@media only screen and (max-width:1000px){
+    .head{
+        grid-template-columns: 1fr 0.5fr;
+    
+    }
+
+
+    .logo{
+        padding-left: 0;
+        visibility: visible;
+        display: initial;
+    }
+    .logo p{
+        font-size: 1.2em;
+    }
+    .mob-butt{
+        justify-self: end;
+        display: initial;
+        visibility: visible;
+    }
+     .mob-butt{
+       color: white;
+       font-size: 2em;
+       transition: 1s;
+   }
+   .mob-butt:hover{
+       color:black ;
+       transition: 1s;
+   }
+   .list{
+    visibility: hidden;
+    display: none;
+}
+.overlay {
+
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+   background: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    border-bottom: 10px solid #2a736a;
+    visibility: visible;
+    display: initial;
+  }
+ .overlay li{
+     display: inline-block;
+ }
+ .both2 li{
+     padding: 2em 0.5em;
+ }
+
+  .overlay .closebtn {
+    position: absolute;
+    top:0;
+    right: 1em;
+    font-size: 3em;
+    color: white;
+  }
+.overlay a{
+    text-decoration: none;
+}
+  .both{
+  
+    height: 100%;
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+   .both ul{
+       padding-left: 0;
+   }
+
+.preview p{
+    top: 70vh;
+}
+
+.the-artcls{
+    padding: 0 5em;
+    grid-template-columns:1fr  ;
+}
+.links{
+    justify-self: center;
+    
+}
+.links ul{
+    padding: 2em;
+    display: inline-block;
+}
+.links li,dd {
+    font-size: 1.2em;
+}
+}
+
+
+@media only screen and (max-width:660px){
+    .logo p{
+        font-size: 1em;
+    }
+    .pre-view{
+        padding: 0;
+    }
+    .preview {
+        
+        height: 40vh;
+    }
+    .preview p{
+        font-size: .7em;
+        top: 45vh;
+    }
+    .links {
+        padding: 0;
+    }
+    .links ul{
+        padding: 1em;
+    }
+    .links li, dd{
+        padding:  0.5em 0;
+        font-size: 1em;
+    }
+    .the-artcls{
+        padding:  0 1em;
+    }
+
+    .Ttl h1{
+        font-size: 1.5em;
+        padding: 0;
+        line-height: 1.1em;
+    }
+
+    .para h2{
+        font-size: 1em;
+    }
+    .para p{
+        font-size:0.9em ;
+    }
+
+
+
+    .d1c{
+        font-size: 1em;
+    }
+    .d2c{
+        font-size: .5em;
+    }
+    .d3c{
+        font-size: 1em;
+    }
+}

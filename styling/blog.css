@@ -85,12 +85,27 @@ ul{
     background-size: cover;
     filter: grayscale(100%);
 }
-.pic4{
+
+
+.p2pic1{
     border-radius: 1%;
-    background: url(../pictures/pic5.jpg) no-repeat center ;
+    background: url(../pictures/algo.jpg) no-repeat center ;
     background-size: cover;
     filter: grayscale(100%);
 }
+.p2pic2{
+    border-radius: 1%;
+    background: url(../pictures/websites.jpg) no-repeat center ;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+.p2pic3{
+    border-radius: 1%;
+    background: url(../pictures/js.jpg) no-repeat center ;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
 .articles{
     padding: 3em;
     display: grid;
