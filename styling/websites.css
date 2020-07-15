@@ -22,7 +22,7 @@
 
 .head{
     padding: .5em 1em;
-    background: #2a736a;
+    background: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -30,13 +30,37 @@
 }
 .head a{
     font-size: 1em;
-    color: white;
+    color: black;
     text-transform: uppercase;
     text-decoration: none;
     font-family: "Google Sans",Roboto,Arial,sans-serif;
     text-align: center;
 }
-
+.header-socials-list{
+    display: initial;
+    visibility: visible;
+    padding-top: 1.5em;
+    padding-right: 2em;
+  }
+  .header-socials-list li{
+      padding:  .5em ;
+      display: inline-block;
+    
+  }
+  
+  .header-socials-list i{
+      transition: 1s;
+      color: black;
+      font-size: 1em;
+  
+  }
+  .header-socials-list i:hover{
+      transition: 1s;
+      color: black;
+      font-size: 1em;
+      color: yellowgreen;
+      
+  }
 
 .logo{
     padding-left: 1em;
@@ -49,9 +73,10 @@
     margin: 0;
     display: inline-block;
     align-self: center;
-    font-family: 'Dancing Script', cursive;
-  color: white;
-  font-size: 1.5em;
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+
+  color: black;
+  font-size: 1.2em;
 }
 
 .mob-butt{
@@ -172,6 +197,10 @@ ul{
     font-size: 2em;
 }
 @media only screen and (max-width:1000px){
+    .header-socials-list{
+        display: none;
+        visibility: hidden;
+    }
     .head{
         grid-template-columns: 1fr 0.5fr;
     
@@ -192,12 +221,12 @@ ul{
         visibility: visible;
     }
      .mob-butt{
-       color: white;
+       color: black;
        font-size: 2em;
        transition: 1s;
    }
    .mob-butt:hover{
-       color:black ;
+       color:yellowgreen ;
        transition: 1s;
    }
    .list{
@@ -270,6 +299,10 @@ ul{
 
 
 @media only screen and (max-width:660px){
+    .header-socials-list{
+        display: none;
+        visibility: hidden;
+    }
     .logo p{
         font-size: 1em;
     }

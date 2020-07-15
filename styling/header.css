@@ -1,0 +1,25 @@
+
+.header-socials-list{
+    
+    padding-top: 1.5em;
+    padding-right: 2em;
+  }
+  .header-socials-list li{
+      padding:  .5em ;
+      display: inline-block;
+    
+  }
+  
+  .header-socials-list i{
+      transition: 1s;
+      color: black;
+      font-size: 1em;
+  
+  }
+  .header-socials-list i:hover{
+      transition: 1s;
+      color: black;
+      font-size: 1em;
+      color: yellowgreen;
+      
+  }

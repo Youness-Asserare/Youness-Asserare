@@ -18,8 +18,11 @@ html,body{
   }
 
 .head{
-    padding: .5em 1em;
-    background: #2a736a;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    padding-right: 1em;
+    padding-left:  1em;
+    background: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -39,7 +42,7 @@ html,body{
 
 .head a{
     font-size: 1em;
-    color: white;
+    color: black;
     text-transform: uppercase;
     text-decoration: none;
     font-family: "Google Sans",Roboto,Arial,sans-serif;
@@ -62,9 +65,9 @@ ul{
     margin: 0;
     display: inline-block;
     align-self: center;
-    font-family: 'Dancing Script', cursive;
-  color: white;
-  font-size: 1.5em;
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  color: black;
+  font-size: 1.2em;
 }
 
 .pic1{
@@ -285,8 +288,32 @@ list-style: none;
     
     font-size: 1.5em;
 }
+.header-socials-list{
+    
+  padding-top: 1.5em;
+  padding-right: 2em;
+}
+.header-socials-list li{
+    padding:  .5em ;
+    display: inline-block;
+  
+}
 
-i:hover{
+.header-socials-list i{
+    transition: 1s;
+    color: black;
+    font-size: 1em;
+
+}
+.header-socials-list i:hover{
+    transition: 1s;
+    color: black;
+    font-size: 1em;
+    color: yellowgreen;
+    
+}
+
+.socials-list i:hover{
     transition:.5s;
     color: black;
 }
@@ -306,13 +333,14 @@ i:hover{
 }
 
 @media only screen and (max-width:1000px){
+    
  .logo{
      padding-left: 0;
      visibility: visible;
      display: initial;
  }
  .logo p{
-     font-size: 1.2em;
+     font-size: 1.1em;
  }
  .list{
      visibility: hidden;
@@ -324,12 +352,12 @@ i:hover{
      visibility: visible;
  }
   .mob-butt{
-    color: white;
+    color: black;
     font-size: 2em;
     transition: 1s;
 }
 .mob-butt:hover{
-    color:black ;
+    color:yellowgreen ;
     transition: 1s;
 }
 
@@ -381,6 +409,10 @@ i:hover{
     width: 100%;
 }
 .head{
+    padding-right: 3.2em;
+    padding-bottom: 3em;
+    padding-left: 3.2em;
+    padding-top: 2em;
     grid-template-columns: 1fr 0.5fr;
 
 }
@@ -388,8 +420,13 @@ i:hover{
 
 
 @media only screen and (max-width:660px){
+    .header-socials-list{
+    
+      display: none;
+        visibility: hidden;
+      }
     .logo p{
-        font-size: 1em;
+        font-size: 0.8em;
     }
     .socials-list i{
        
@@ -411,5 +448,11 @@ i:hover{
     .foot{
         text-align: center;
         grid-template-columns: 1fr ;
+    }
+    .head{
+    padding-right: 1em;
+    padding-bottom: 3em;
+    padding-left: 1em;
+    padding-top: 2em;
     }
 }
