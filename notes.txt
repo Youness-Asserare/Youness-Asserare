@@ -1,14 +1,15 @@
-the color 00002c
-Create the Guides
 
 
 
 Create the Portfolios
-Make the side buttons to the articles
-check social meadia links
 
 
 
+
+
+
+Create the Guides
+make the directory this way https://impossiblehq.com/blog/
 making the more articles section 
 write 6 more articles
 fix visual hirachy on links on phone

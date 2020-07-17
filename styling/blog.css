@@ -171,54 +171,34 @@ ul{
 
 .small-articles{
     height: 50%;
-    
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr;
-    gap: 2em;
+ 
+   
+  
 }
 a{
     text-decoration: none;
 }
 
-.small-articles p{
-    color: white;
-    font-size: 2em;
-  
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
 
-}
-.s-art-1{
-    align-self: center;
-    background: darkblue;
-}
-.s-art-2{
-    align-self: center;
 
-    background: black;
-}
-.s-art-3{
-    align-self: center;
 
-    background: greenyellow;
-}
-/*.s-art-1 {
-    background: url(../pictures/COLD\ SHOWER.png) no-repeat center;
-
+ .s-a-1 {
+    background: url(../pictures/side-buttons/cold.jpg) no-repeat center;
     background-size: contain;
 }
-.s-art-2{
-    background: url(../pictures/RUNNING.png) no-repeat center;
+.s-a-2{
+    
+    background: url(../pictures/side-buttons/programming.jpg) no-repeat center;
     background-size: contain;
-}
-.s-art-3{
-    background: url(../pictures/PROGRAMMING.png) no-repeat center;
-    background-size: contain;
+
+
+
 }
 
-*/
+
+
 .pages ul{
    text-align: center;
 list-style: none;
