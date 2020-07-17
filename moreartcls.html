@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Personal website">
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+ <style>
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    margin: 0;
+    padding: 1em;
+}
+
+.all{
+    height: 400px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 0.5em;
+}
+
+.side1{
+    height: 100%;
+    filter: grayscale(100);
+    transition: 2s;
+padding: 1em;
+    background: url(pictures/artcls/run.jpg) center no-repeat ;
+    background-size: cover;
+ 
+}
+.side2{
+    padding: 1em;
+    height: 100%;
+filter: grayscale(100);
+transition: 2s;
+    background: url(pictures/artcls/js.jpg) center no-repeat ;
+    background-size: cover;
+}
+.side1:hover, .side2:hover{
+    transition: 1.5s;
+    filter: grayscale(0);
+    transform: scale(1.05);
+    
+}
+.all p{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+background: black;
+    color: white;
+   position: absolute;
+   bottom: 0;    
+   font-size: 1.5em;
+}
+
+
+ </style>
+         
+    </head>
+    <body>
+        <h2>More Articles: </h2>
+        <div class="all">
+<a href="#"><div class="side1">
+<p>Running: one of the cheapest ways to be healthy</p>
+</div></a>
+<a href="#"><div class="side2">
+    <p>Running: one of the cheapest ways to be healthy</p>
+
+</div></a>
+        </div>
+        </body>
+        </html>

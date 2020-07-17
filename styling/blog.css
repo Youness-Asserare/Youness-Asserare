@@ -72,19 +72,19 @@ ul{
 
 .pic1{
     border-radius: 1%;
-    background: url(../pictures/cold.jpg) no-repeat center ;
+    background: url(../pictures/artcls/cold.jpg) no-repeat center ;
     background-size: cover;
     filter: grayscale(100%);
 }
 .pic2{
     border-radius: 1%;
-    background: url(../pictures/run.jpg) no-repeat center ;
+    background: url(../pictures/artcls/run.jpg) no-repeat center ;
     background-size: cover;
     filter: grayscale(100%);
 }
 .pic3{
     border-radius: 1%;
-    background: url(../pictures/programming.jpg) no-repeat center ;
+    background: url(../pictures/artcls/programming.jpg) no-repeat center ;
     background-size: cover;
     filter: grayscale(100%);
 }
@@ -92,19 +92,19 @@ ul{
 
 .p2pic1{
     border-radius: 1%;
-    background: url(../pictures/algo.jpg) no-repeat center ;
+    background: url(../pictures/artcls/algo.jpg) no-repeat center ;
     background-size: cover;
     filter: grayscale(100%);
 }
 .p2pic2{
     border-radius: 1%;
-    background: url(../pictures/websites.jpg) no-repeat center ;
+    background: url(../pictures/artcls/websites.jpg) no-repeat center ;
     background-size: cover;
     filter: grayscale(100%);
 }
 .p2pic3{
     border-radius: 1%;
-    background: url(../pictures/js.jpg) no-repeat center ;
+    background: url(../pictures/artcls/js.jpg) no-repeat center ;
     background-size: cover;
     filter: grayscale(100%);
 }
